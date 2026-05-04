@@ -66,13 +66,6 @@ Install the required Python libraries using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-## Data Files
-
-The notebooks require input data files that can be downloaded from the following link:
-[ATLAS Open Data Files](https://uctcloud-my.sharepoint.com/:f:/g/personal/01452979_wf_uct_ac_za/IgB4nB7DiajfSoZjk2A6yKIjAWh4-MSHCkMKEP7BOkXfflM?e=2QH87F)
-
-Place all downloaded files (i.e., .root files)in the ./data/ directory.
-
 ## Usage
 
 1. Clone this repository:
@@ -89,7 +82,15 @@ Place all downloaded files (i.e., .root files)in the ./data/ directory.
 3. Open and run the notebooks:
    - H_gamgam_analysis.ipynb
 
-4. Run the notebook cells in order.
+4. Download the data files:
+   Create data directory
+   ```bash
+   mkdir data
+   ```
+   
+   The notebooks require input data files that can be downloaded from the following link: [ATLAS Open Data Files](https://uctcloud-my.sharepoint.com/:f:/g/personal/01452979_wf_uct_ac_za/IgB4nB7DiajfSoZjk2A6yKIjAWh4-MSHCkMKEP7BOkXfflM?e=2QH87F). Place all downloaded files (i.e., .root files)in the ./data/ directory.
+
+5. Run the notebook cells in order.
 
 ## Notes on the Analysis
 
