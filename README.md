@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/drkevinbarends/UCTPHY3ATLASLAB2026.git
    cd UCTPHY3ATLASLAB2026
    ```
 
